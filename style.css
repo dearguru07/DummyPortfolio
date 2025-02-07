@@ -26,7 +26,11 @@ body {
   font-size: 17px;
   font-weight: bolder;
 }
-
+.flight-img>h4{
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: cursive;
+  font-size: 100px;
+}
 .blue-link:hover {
   color: rgb(239, 120, 120);
 }

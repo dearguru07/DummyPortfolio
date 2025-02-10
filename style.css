@@ -87,10 +87,6 @@ body {
   margin-top: -120px;
 }
 
-.row {
-  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
-}
-
 .s-media-flex {
   width: 270px;
   display: flex;
@@ -121,7 +117,7 @@ body {
 }
 
 .about-flex {
-  margin: 5px 50px;
+  margin: 5px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -266,21 +262,22 @@ body {
 .reviews::-webkit-scrollbar {
   display: none;
 }
+.certi-img {
+  width: 450px;
+  height: 350px;
+  object-fit: contain;
+  border: 2px solid black;
+}
 
 .rating-container {
   width: 450px;
-  padding: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 144, 139, 0.842);
-  color: white;
+  /* padding: 5px; */
+  /* box-shadow: 0px 0px 10px rgba(0, 144, 139, 0.842); */
+  /* color: white; */
   margin: 10px;
-  height: 320px;
+  height: 350px;
 }
 
-.certi-img {
-  width: 450px;
-  height: 320px;
-  object-fit: contain;
-}
 
 .person-flex {
   display: flex;

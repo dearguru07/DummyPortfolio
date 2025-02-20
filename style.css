@@ -265,15 +265,14 @@ body {
 .certi-img {
   width: 450px;
   height: 350px;
-  object-fit: contain;
+  /* object-fit: contain; */
+  padding: 10px;
+  border-radius: 5px;
   border: 2px solid black;
 }
 
 .rating-container {
   width: 450px;
-  /* padding: 5px; */
-  /* box-shadow: 0px 0px 10px rgba(0, 144, 139, 0.842); */
-  /* color: white; */
   margin: 10px;
   height: 350px;
 }
@@ -303,12 +302,12 @@ body {
 .foot-link {
   text-decoration: none;
   font-size: 25px;
-  color: rgba(72, 17, 17, 0.63);
+  color: rgba(74, 70, 70, 0.63);
 }
 
 .foot-link:hover {
-  border-bottom: 2px solid white;
-  color: rgba(0, 0, 0, 0.963);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgba(240, 23, 23, 0.963);
 }
 .name {
   font-size: 50px;

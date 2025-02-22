@@ -32,7 +32,7 @@ body {
   font-weight: bolder;
 }
 .flight-img > p {
-  font-size: 90px;
+  font-size: 110px;
   font-family: "Sacramento", serif;
   font-weight: 400;
   font-style: normal;
@@ -84,7 +84,7 @@ body {
 }
 .flight-img {
   text-align: center;
-  margin-top: -120px;
+  /* margin-top: -50px; */
 }
 
 .s-media-flex {
@@ -310,7 +310,7 @@ body {
   color: rgba(240, 23, 23, 0.963);
 }
 .name {
-  font-size: 50px;
+  font-size: 60px;
   font-family: "Sacramento", serif;
   font-weight: 400;
   font-style: normal;
@@ -469,3 +469,33 @@ margin-bottom: -23px;
   justify-content: space-around;
 }
 
+
+.c-btn {
+  border:1px solid #fff;
+  text-transform:uppercase;
+  color:#fff;
+  padding:15px 25px;
+  border-radius:30px;
+  font-size:14px;
+  letter-spacing:1px;
+  margin-top:14px;
+  display:inline-block !important;
+  line-height:1.4;
+  -webkit-transition:all .2s ease;
+  -moz-transition:all .2s ease;
+  transition:all .2s ease;
+  background-color: #40b0bc;
+}
+.c-btn:hover {
+  background-color:#fff;
+  color:#009ca8
+}
+.c-btn.project {
+  background:transparent;
+  border:1px solid #fff;
+  color:#fff;
+}
+.c-btn.project:hover {
+  background-color:#fff;
+  color:#fe5f55;
+}
